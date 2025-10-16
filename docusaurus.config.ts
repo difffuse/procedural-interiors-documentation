@@ -10,7 +10,12 @@ const config: Config = {
   favicon: 'img/favicon.ico',
   // these are just for now
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks:
+      {
+        onBrokenMarkdownLinks: 'warn',
+      },
+  },
 
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -22,7 +27,9 @@ const config: Config = {
   url: 'https://your-procedural-interiors-docs.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/procedural-interiors-documentation/',
+  baseUrl: '/procedural-interiors-documentation/',   // NOTE: trailing slash!
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
