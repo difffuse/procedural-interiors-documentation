@@ -33,4 +33,4 @@ The add-on file is "Procedural Interiors  v1.0.0.zip", so go to Blender and go t
 
 ## Next Steps
 
-Once installed, proceed to [configure your preferences](preferences) for optimal workflow integration.
+Once installed, proceed to [configure your preferences](preferences)
