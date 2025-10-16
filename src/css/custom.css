@@ -1,0 +1,75 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Procedural Interiors Brand Colors */
+:root {
+  /* Primary brand colors - Professional blue/teal palette */
+  --ifm-color-primary: #1976d2;
+  --ifm-color-primary-dark: #1565c0;
+  --ifm-color-primary-darker: #1360b7;
+  --ifm-color-primary-darkest: #0d47a1;
+  --ifm-color-primary-light: #1e88e5;
+  --ifm-color-primary-lighter: #2196f3;
+  --ifm-color-primary-lightest: #42a5f5;
+  
+  /* Accent colors for interior design theme */
+  --ifm-color-secondary: #ff9800;
+  --ifm-color-success: #4caf50;
+  --ifm-color-warning: #ff9800;
+  --ifm-color-danger: #f44336;
+  
+  /* Typography */
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  
+  /* Code highlighting */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode colors for better readability */
+[data-theme='dark'] {
+  --ifm-color-primary: #64b5f6;
+  --ifm-color-primary-dark: #42a5f5;
+  --ifm-color-primary-darker: #2196f3;
+  --ifm-color-primary-darkest: #1e88e5;
+  --ifm-color-primary-light: #90caf9;
+  --ifm-color-primary-lighter: #bbdefb;
+  --ifm-color-primary-lightest: #e3f2fd;
+  
+  /* Dark mode accent colors */
+  --ifm-color-secondary: #ffb74d;
+  --ifm-color-success: #81c784;
+  --ifm-color-warning: #ffb74d;
+  --ifm-color-danger: #e57373;
+  
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom styling for Procedural Interiors */
+.hero__title {
+  font-weight: 700;
+  background: linear-gradient(45deg, var(--ifm-color-primary), var(--ifm-color-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero__subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* Feature cards styling */
+.features {
+  padding: 4rem 0;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+}
