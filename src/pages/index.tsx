@@ -21,7 +21,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Get Started 🚀
+            Get Started
           </Link>
           <Link
             className="button button--primary button--lg"
@@ -39,8 +39,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} - Professional Interior Generation for Blender`}
-      description="Create stunning interior spaces in Blender with our powerful procedural generation addon. Features automated room layouts, furniture placement, and customizable assets.">
+      title={`${siteConfig.title} - Procedural Interior Generator Add-on for Blender`}
+      description="Description of the add-on goes here">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

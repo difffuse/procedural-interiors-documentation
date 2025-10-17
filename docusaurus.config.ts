@@ -153,7 +153,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Procedural Interiors.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Difffuse Studio.`,
     },
     prism: {
       theme: prismThemes.github,

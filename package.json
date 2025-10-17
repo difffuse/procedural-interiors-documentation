@@ -1,8 +1,8 @@
 {
   "name": "procedural-interiors-docs",
   "version": "1.0.0",
-  "description": "Documentation for Procedural Interiors - A professional Blender addon for interior generation",
-  "author": "Your Organization",
+  "description": "Documentation for Procedural Interiors - A Blender addon for procedural interior generation",
+  "author": "Difffuse Studio",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
