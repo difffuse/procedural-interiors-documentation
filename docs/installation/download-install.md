@@ -26,10 +26,14 @@ The add-on file is "Procedural Interiors  v1.0.0.zip", so go to Blender and go t
 - Navigate to your downloaded ZIP file
 - Select the ZIP file and click **Install Add-on**
 
+![Addon Installation](/assets/images/addon_prefs.png)
+
 ### 3. Enable the Addon
 - Search for "Procedural Interiors" in the addon list
 - Check the checkbox next to the addon name to enable it
 - The addon should now appear in your Blender interface
+
+![Enable Addon](/assets/images/addon_prefs_2.png)
 
 ## Next Steps
 

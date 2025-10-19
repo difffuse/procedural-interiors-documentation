@@ -31,7 +31,6 @@ const sidebars: SidebarsConfig = {
         'how-to-use/openings-circulation',
         'how-to-use/furnishing-presets',
         'how-to-use/parametrize',
-        'how-to-use/help',
       ],
     },
     {
@@ -39,10 +38,6 @@ const sidebars: SidebarsConfig = {
       label: 'Asset Browser',
       items: [
         'asset-browser/overview',
-        'asset-browser/browsing-assets',
-        'asset-browser/importing-assets',
-        'asset-browser/custom-assets',
-        'asset-browser/asset-management',
       ],
     },
   ],
