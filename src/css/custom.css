@@ -51,10 +51,7 @@
 /* Custom styling for Procedural Interiors */
 .hero__title {
   font-weight: 700;
-  background: linear-gradient(45deg, var(--ifm-color-primary), var(--ifm-color-secondary));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--ifm-color-primary-lightest);
 }
 
 .hero__subtitle {
@@ -72,4 +69,29 @@
   height: 200px;
   width: 200px;
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+}
+
+/* Navbar social media icons styling */
+.navbar-icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  margin: 0 0.2rem;
+  border-radius: 50%;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.navbar-icon-link:hover {
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+.navbar-icon-link i {
+  font-size: 1.2rem;
+  color: var(--ifm-navbar-link-color);
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar-icon-link:hover i {
+  color: var(--ifm-color-primary);
 }

@@ -18,7 +18,9 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Installation Guide',
-      items: ['installation/download-install', 'installation/preferences'],
+      items: ['installation/download-install', 
+        'installation/preferences'
+      ],
     },
     {
       type: 'category',

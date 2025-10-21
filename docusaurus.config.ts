@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Procedural Interiors',
   tagline: 'Procedural interior generator Add-on for Blender',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/difffuse_logo.svg',
   // these are just for now
   onBrokenLinks: 'warn',
   markdown: {
@@ -16,6 +16,20 @@ const config: Config = {
         onBrokenMarkdownLinks: 'warn',
       },
   },
+  
+  // Add Font Awesome for social icons
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'stylesheet',
+        href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css',
+        integrity: 'sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==',
+        crossorigin: 'anonymous',
+        referrerpolicy: 'no-referrer',
+      },
+    },
+  ],
 
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -81,7 +95,7 @@ const config: Config = {
       title: 'Procedural Interiors',
       logo: {
         alt: 'Procedural Interiors Logo',
-        src: 'img/logo.svg',
+        src: 'img/difffuse_logo.svg',
       },
       items: [
         {
@@ -90,68 +104,54 @@ const config: Config = {
           position: 'left',
           label: 'Documentation',
         },
-        {to: '/blog', label: 'Updates', position: 'left'},
+        
         {
-          href: 'https://github.com/your-organization/procedural-interiors',
-          label: 'GitHub',
+          href: 'https://superhivemarket.com/creators/difffusestudio',
+          className: 'navbar-icon-link',
           position: 'right',
+          html: '<i class="fa-solid fa-store" aria-label="Blender Market"></i>',
+        },
+        {
+          href: 'https://www.youtube.com/@difffusestudio',
+          className: 'navbar-icon-link',
+          position: 'right',
+          html: '<i class="fa-brands fa-youtube" aria-label="YouTube"></i>',
+        },
+        {
+          href: 'https://www.instagram.com/difffusestudio',
+          className: 'navbar-icon-link',
+          position: 'right',
+          html: '<i class="fa-brands fa-instagram" aria-label="Instagram"></i>',
+        },
+        {
+          href: 'https://x.com/DifffuseStudio',
+          className: 'navbar-icon-link',
+          position: 'right',
+          html: '<i class="fa-brands fa-x-twitter" aria-label="Twitter"></i>',
+        },
+        {
+          href: 'https://discord.gg/GC4ZzGkvhH',
+          className: 'navbar-icon-link',
+          position: 'right',
+          html: '<i class="fa-brands fa-discord" aria-label="Discord"></i>',
+        },
+        {
+          href: 'https://difffusestudiosl.gumroad.com/',
+          className: 'navbar-icon-link',
+          position: 'right',
+          html: '<i class="fa-solid fa-cart-shopping" aria-label="Gumroad"></i>',
+        },
+        {
+          href: 'https://difffuse.studio',
+          className: 'navbar-icon-link',
+          position: 'right',
+          html: '<i class="fa-solid fa-globe" aria-label="Difffuse Website"></i>',
         },
       ],
     },
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Documentation',
-          items: [
-            {
-              label: 'Getting Started',
-              to: '/docs/intro',
-            },
-            {
-              label: 'Installation Guide',
-              to: '/docs/installation',
-            },
-            {
-              label: 'How to Use',
-              to: '/docs/how-to-use',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Blender Artists',
-              href: 'https://blenderartists.org',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discord.gg/your-server',
-            },
-            {
-              label: 'Support',
-              href: 'mailto:support@your-domain.com',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Updates',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/your-organization/procedural-interiors',
-            },
-            {
-              label: 'Blender Market',
-              href: 'https://blendermarket.com/your-addon',
-            },
-          ],
-        },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Difffuse Studio.`,
     },
