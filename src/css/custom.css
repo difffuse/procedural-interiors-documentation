@@ -6,20 +6,20 @@
 
 /* Procedural Interiors Brand Colors */
 :root {
-  /* Primary brand colors - blue/teal palette */
-  --ifm-color-primary: #1976d2;
-  --ifm-color-primary-dark: #1565c0;
-  --ifm-color-primary-darker: #1360b7;
-  --ifm-color-primary-darkest: #0d47a1;
-  --ifm-color-primary-light: #1e88e5;
-  --ifm-color-primary-lighter: #2196f3;
-  --ifm-color-primary-lightest: #42a5f5;
+  /* Primary brand colors - gray palette */
+  --ifm-color-primary: #4a4a4a;
+  --ifm-color-primary-dark: #3d3d3d;
+  --ifm-color-primary-darker: #333333;
+  --ifm-color-primary-darkest: #262626;
+  --ifm-color-primary-light: #5c5c5c;
+  --ifm-color-primary-lighter: #6e6e6e;
+  --ifm-color-primary-lightest: #808080;
   
-  /* Accent colors for interior design theme */
-  --ifm-color-secondary: #ff9800;
-  --ifm-color-success: #4caf50;
-  --ifm-color-warning: #ff9800;
-  --ifm-color-danger: #f44336;
+  /* Accent colors - gray secondary palette */
+  --ifm-color-secondary: #707070;
+  --ifm-color-success: #5a5a5a;
+  --ifm-color-warning: #8a8a8a;
+  --ifm-color-danger: #9a9a9a;
   
   /* Typography */
   --ifm-code-font-size: 95%;
@@ -27,37 +27,44 @@
   
   /* Code highlighting */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-color-foreground: rgb(29, 29, 29);
+  --ifm-color-background: rgb(226, 226, 226);
 }
 
 /* Dark mode colors for better readability */
 [data-theme='dark'] {
-  --ifm-color-primary: #64b5f6;
-  --ifm-color-primary-dark: #42a5f5;
-  --ifm-color-primary-darker: #2196f3;
-  --ifm-color-primary-darkest: #1e88e5;
-  --ifm-color-primary-light: #90caf9;
-  --ifm-color-primary-lighter: #bbdefb;
-  --ifm-color-primary-lightest: #e3f2fd;
+  --ifm-color-primary: #c0c0c0;
+  --ifm-color-primary-dark: #b0b0b0;
+  --ifm-color-primary-darker: #a0a0a0;
+  --ifm-color-primary-darkest: #909090;
+  --ifm-color-primary-light: #d0d0d0;
+  --ifm-color-primary-lighter: #e0e0e0;
+  --ifm-color-primary-lightest: #f0f0f0;
   
   /* Dark mode accent colors */
-  --ifm-color-secondary: #ffb74d;
-  --ifm-color-success: #81c784;
-  --ifm-color-warning: #ffb74d;
-  --ifm-color-danger: #e57373;
+  --ifm-color-secondary: #a9a9a9;
+  --ifm-color-success: #b8b8b8;
+  --ifm-color-warning: #d3d3d3;
+  --ifm-color-danger: #c8c8c8;
   
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-background: rgb(29, 29, 29);
+  --ifm-color-foreground: rgb(226, 226, 226);
 }
 
 /* Custom styling for Procedural Interiors */
 .hero__title {
   font-weight: 700;
-  color: var(--ifm-color-primary-lightest);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero__subtitle {
   font-size: 1.25rem;
   margin-bottom: 2rem;
-  color: var(--ifm-color-emphasis-700);
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 /* Feature cards styling */
