@@ -92,7 +92,6 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Procedural Interiors',
       logo: {
         alt: 'Procedural Interiors Logo',
         src: 'img/difffuse_logo.svg',
@@ -151,8 +150,6 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} Difffuse Studio.`,
     },
     prism: {

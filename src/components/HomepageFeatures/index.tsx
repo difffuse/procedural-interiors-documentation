@@ -15,8 +15,8 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Automatically generate complete interior spaces with intelligent room layouts,
-        proper proportions, and realistic architectural elements. Save hours of manual modeling.
+        Procedurally generate complete interior spaces with room layouts,
+        Parametric architectural elements and Furniture Presets. Save hours of manual modeling.
       </>
     ),
   },

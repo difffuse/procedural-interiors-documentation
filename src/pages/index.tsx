@@ -39,8 +39,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} - Procedural Interior Generator Add-on for Blender`}
-      description="Description of the add-on goes here">
+      title={`${siteConfig.title} - Documentation`}
+      description="Procedural Interior Generator Add-on for Blender">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

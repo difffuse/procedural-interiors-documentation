@@ -29,8 +29,33 @@ const sidebars: SidebarsConfig = {
         'how-to-use/overlays',
         'how-to-use/reference',
         'how-to-use/floor-management',
-        'how-to-use/structure',
-        'how-to-use/openings-circulation',
+        {
+          type: 'category',
+          label: 'Structure',
+          link: {
+            type: 'doc',
+            id: 'how-to-use/structure',
+          },
+          items: [
+            'how-to-use/structure/space',
+            'how-to-use/structure/layout',
+            'how-to-use/structure/columns',
+            'how-to-use/structure/partition-walls',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Openings & Circulation',
+          link: {
+            type: 'doc',
+            id: 'how-to-use/openings-circulation',
+          },
+          items: [
+            'how-to-use/openings-circulation/windows',
+            'how-to-use/openings-circulation/doors',
+            'how-to-use/openings-circulation/stairs',
+          ],
+        },
         'how-to-use/furnishing-presets',
         'how-to-use/parametrize',
       ],
