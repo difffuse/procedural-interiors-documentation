@@ -8,6 +8,19 @@ sidebar_position: 2
 
 ## Overview
 
-Doors work the same way, although in this case, you must set both the width and height before placing them.
+Doors follow a similar workflow to windows, with some key differences.
 
-Among the available doors, interior doors are procedural, meaning they adapt to the height and width you set. However, exterior doors have fixed dimensions that cannot be changed, and you also won't be able to set the door opening angle for them.
+## Door Settings
+
+- You must set both the width and height before placing doors
+- Use the Draw and Reposition buttons to place or move doors
+
+## Door Types
+
+### Interior Doors
+- **Procedural** - Adapt to the height and width you set
+- Can adjust the door opening angle
+
+### Exterior Doors
+- **Fixed dimensions** - Cannot be changed
+- Cannot set the door opening angle
