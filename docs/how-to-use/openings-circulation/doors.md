@@ -4,13 +4,14 @@ sidebar_position: 2
 
 # Doors
 
-![Doors Tab](/assets/images/draw_door.png)
 
 ## Overview
 
 Doors follow a similar workflow to windows, with some key differences.
 
 ## Door Settings
+
+![Doors Tab](/assets/images/doors1.png)
 
 - You must set both the width and height before placing doors
 - Use the Draw and Reposition buttons to place or move doors
@@ -24,3 +25,5 @@ Doors follow a similar workflow to windows, with some key differences.
 ### Exterior Doors
 - **Fixed dimensions** - Cannot be changed
 - Cannot set the door opening angle
+
+![Doors Tab](/assets/images/doors2.png)

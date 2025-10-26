@@ -17,4 +17,4 @@ When you click the Draw button:
 > **IMPORTANT:**
 > A current limitation is that, for the staircase to be placed correctly, you must draw the points in a **clockwise direction**.
 
-![Stairs Tab](/assets/images/draw_stairs.png)
+![Stairs Tab](/assets/images/stairs1.png)

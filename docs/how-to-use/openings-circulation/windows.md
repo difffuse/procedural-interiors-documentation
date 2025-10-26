@@ -4,9 +4,8 @@ sidebar_position: 1
 
 # Windows
 
-![Windows Tab](/assets/images/draw_window.png)
+![Windows Tab](/assets/images/windows1.png)
 
-![Windows Tab Tips](/assets/images/draw_window2.png)
 
 ## Overview
 
@@ -24,6 +23,7 @@ Expand Draw Settings to view the available parameters (2). For windows, you can 
 
 2. **Place Window** - Set the width in advance, then simply click on a wall to place a window with those dimensions
 
+![Windows Tab Tips](/assets/images/windows2.png)
 ## Controls
 
 Just like with the elements in the Structure section, you can use the Draw and Reposition buttons to place or move the windows (3 and 4).
