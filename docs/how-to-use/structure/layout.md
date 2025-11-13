@@ -17,6 +17,8 @@ Click the Slice Floor Plan button and start drawing the divisions you need direc
 
 The add-on automatically divides the general space into different areas when you use the Layout option. This becomes especially useful later on, as you'll be able to furnish these areas automatically using presets. With just one click, the add-on places furniture in an approximate layout, which you can then adjust and reposition to suit your needs.
 
+![Layout Created](/assets/images/LayoutCreated.jpg)
+
 ### Deleting Areas
 
 You can delete created areas by clicking the Delete Areas button:

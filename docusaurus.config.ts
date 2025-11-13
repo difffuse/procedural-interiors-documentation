@@ -85,6 +85,27 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    function(context, options) {
+      return {
+        name: 'webpack-config-plugin',
+        configureWebpack(config, isServer) {
+          return {
+            module: {
+              rules: [
+                {
+                  test: /\.md$/,
+                  resourceQuery: /raw/,
+                  type: 'asset/source',
+                },
+              ],
+            },
+          };
+        },
+      };
+    },
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -102,6 +123,11 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Documentation',
+        },
+        {
+          to: '/changelog',
+          position: 'left',
+          label: 'Changelog',
         },
         
         {

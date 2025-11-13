@@ -4,12 +4,11 @@ sidebar_position: 1
 
 # Windows
 
+
+You can choose between hinged windows, Fixed or sliding windows by clicking the window icon (1).
+
+
 ![Windows Tab](/assets/images/windows1.png)
-
-
-## Overview
-
-You can choose between hinged windows or sliding windows by clicking the window icon (1).
 
 ## Window Settings
 

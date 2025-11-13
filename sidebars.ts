@@ -32,10 +32,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Structure',
-          link: {
-            type: 'doc',
-            id: 'how-to-use/structure',
-          },
+          
           items: [
             'how-to-use/structure/space',
             'how-to-use/structure/layout',
@@ -58,6 +55,8 @@ const sidebars: SidebarsConfig = {
         },
         'how-to-use/furnishing-presets',
         'how-to-use/parametrize',
+        'how-to-use/apply-model',
+        'how-to-use/help',
       ],
     },
     {
@@ -67,6 +66,7 @@ const sidebars: SidebarsConfig = {
         'asset-browser/overview',
       ],
     },
+    
   ],
 };
 

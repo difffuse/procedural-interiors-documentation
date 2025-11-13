@@ -4,11 +4,12 @@ sidebar_position: 2
 
 # Preference Settings
 
-![Add-on Preferences](/assets/images/addon_prefs_3.png)
 
 In the add-on preferences, you'll find the following settings:
 
 ## General Settings
+
+![General Add-on Preferences](/assets/images/addon_prefs_general.png)
 
 In addition to the Folder Path label, where you've previously selected the assets folder, you'll find three options:
 
@@ -20,11 +21,15 @@ In addition to the Folder Path label, where you've previously selected the asset
 
 ## Snapping Settings
 
+![Snapping Add-on Preferences](/assets/images/addon_prefs_snapping.png)
+
 In this tab, you'll find settings to adjust:
 - Automatic snapping to points or edges
 - Snapping threshold
 - Edge subdivisions
 
 ## Theme Settings
+
+![Theme Add-on Preferences](/assets/images/addon_prefs_theme.png)
 
 Here, you can customize the colors of the add-on's overlays.

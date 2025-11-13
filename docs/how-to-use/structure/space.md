@@ -42,6 +42,8 @@ Once you're done, press Enter to see your structure generated.
 
 ![Generated Structure](/assets/images/spaces6.png)
 
-After creating the main floor plan, you can edit the wall corners and edges, then proceed to add interior walls from the Layout tab.
+After creating the main floor plan, you can edit the wall corners and edges using the Reposition Walls at Level button.
 
 ![Editing Structure](/assets/images/spaces7.png)
+
+You can then proceed to add interior walls from the Layout tab.

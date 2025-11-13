@@ -23,7 +23,3 @@ In this tab, you can manage the floors of your building. Each floor is listed he
 - **Move Floor Down** – Shift the selected floor one level down.
 
 - **Duplicate Selected Floor** – Clone the current floor. This is especially useful before adding interior spaces to the ground floor, since upper floors often share the same layout.
-
-## Next Steps
-
-Continue to [Structure](structure) to learn how to create your building's structure.
