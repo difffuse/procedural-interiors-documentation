@@ -64,6 +64,8 @@ const sidebars: SidebarsConfig = {
       label: 'Asset Browser',
       items: [
         'asset-browser/overview',
+        'asset-browser/asset-browser-setup',
+        'asset-browser/asset-browser-usage',
       ],
     },
     
