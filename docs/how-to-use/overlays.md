@@ -1,10 +1,14 @@
 ---
 sidebar_position: 1
 ---
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Overlays
 
-![Overlays Tab](/assets/images/overlay_tab.png)
+<p align="center">
+  <img src={useBaseUrl('/assets/images/overlay_tab.png')} width="60%"/>
+</p>
+
 
 ## Overlay Controls
 

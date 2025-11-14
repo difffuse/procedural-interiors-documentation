@@ -2,6 +2,8 @@
 sidebar_position: 3
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Using the Assets
 
 Open the Asset Browser (usually found in the Shading, Layout, or Modeling workspaces). From the library list, select the Procedural Interiors library. You will find:
@@ -34,7 +36,10 @@ Several assets, such as doors, windows, and staircases, support further editing:
 - **Staircases:** Edit Mode allows you to modify their geometry, including creating up to three connected sections.
 - **Parametric Assets:** Many assets include modifiers that expose additional parameters. These can be tweaked from the Modifiers tab.
 
-![Asset Browser](/assets/images/asset_browser_3.png)
+
+<p align="center">
+  <img src={useBaseUrl('/assets/images/asset_browser_3.png')} width="100%"/>
+</p>
 
 ## Adaptive Furniture
 

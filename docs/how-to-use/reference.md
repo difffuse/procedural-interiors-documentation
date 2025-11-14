@@ -1,10 +1,15 @@
 ---
 sidebar_position: 2
 ---
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Reference
 
-![Reference Tab](/assets/images/reference_tab.png)
+<p align="center">
+  <img src={useBaseUrl('/assets/images/reference_tab.png')} width="60%"/>
+</p>
+
+
 
 If you have a reference floor plan, you can use this feature to add your image to the scene and use it as a guide for generating walls and other elements. In this tab, you'll find several options to help you work with your reference image.
 
@@ -32,14 +37,20 @@ To scale your reference image to real-world dimensions, use the Ref. Scale optio
 
 1. Click the distance icon to the right of Ref. Scale.
 
-   ![Reference Scale Step 1](/assets/images/scale_to_step1.png)
+<p align="center">
+  <img src={useBaseUrl('/assets/images/scale_to_step1.png')} width="60%"/>
+</p>
 
 2. Click on a first point in your image, ideally one end of a wall for which you know the exact length, then click the other end of that wall (Indicated with arrows in the next image, you will also see the current length between the points).
 
-   ![Reference Scale Step 2](/assets/images/scale_to_step2.png)
+<p align="center">
+  <img src={useBaseUrl('/assets/images/scale_to_step2.png')} width="90%"/>
+</p>
 
 3. A new parameter called Scale To will appear below Ref. Scale. Enter the correct real-world distance for that wall segment (in meters or inches), and the image will automatically scale so that segment matches the specified length.
 
 4. Click the X icon to the right of Ref. Scale to apply the new scale. That's it, your reference image is now at real-world scale.
 
-   ![Reference Scale Step 3](/assets/images/scale_to_step3.png)
+<p align="center">
+  <img src={useBaseUrl('/assets/images/scale_to_step3.png')} width="60%"/>
+</p>

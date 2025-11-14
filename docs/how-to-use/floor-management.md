@@ -1,12 +1,16 @@
 ---
 sidebar_position: 3
 ---
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 
 # Floor Management
 
 Create, organize, and manage multiple floor levels
+<p align="center">
+  <img src={useBaseUrl('/assets/images/floor_mgmt_tab.png')} width="60%"/>
+</p>
 
-![Floor Management Tab](/assets/images/floor_mgmt_tab.png)
 
 In this tab, you can manage the floors of your building. Each floor is listed here with its name and total height, which can be adjusted (7). You can also isolate a single floor to make editing easier using the Isolate option (6).
 
