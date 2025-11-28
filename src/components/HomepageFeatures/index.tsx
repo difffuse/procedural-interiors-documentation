@@ -5,14 +5,14 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  Png: string;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Procedural Generation',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Png: require('@site/static/img/ProcGen.png').default,
     description: (
       <>
         Procedurally generate complete interior spaces with room layouts,
@@ -21,8 +21,8 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Blender Integration',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Easy User Interface',
+    Png: require('@site/static/img/Easy UI.png').default,
     description: (
       <>
         Seamlessly integrated into Blender&apos;s interface with intuitive panels and controls.
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Customizable Assets',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Png: require('@site/static/img/ProcAssets.png').default,
     description: (
       <>
         Extensive library of furniture, fixtures, and architectural elements.
@@ -42,11 +42,11 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, Png, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={Png} className={styles.featureSvg} role="img" alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

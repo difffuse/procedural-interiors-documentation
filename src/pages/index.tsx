@@ -12,7 +12,7 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero', styles.heroBanner)}>
-      <div className="container">
+      {/* <div className="container">
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
@@ -30,7 +30,7 @@ function HomepageHeader() {
             Get Started
           </Link>
         </div>
-      </div>
+      </div> */}
     </header>
   );
 }

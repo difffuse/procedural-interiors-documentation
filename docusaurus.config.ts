@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Procedural Interiors',
   tagline: 'Procedural interior generator Add-on for Blender',
-  favicon: 'img/difffuse_logo.svg',
+  favicon: 'img/difffuse_logo.png',
   // these are just for now
   onBrokenLinks: 'warn',
   markdown: {
@@ -115,7 +115,7 @@ const config: Config = {
     navbar: {
       logo: {
         alt: 'Procedural Interiors Logo',
-        src: 'img/difffuse_logo.svg',
+        src: 'img/difffuse_logo.png',
       },
       items: [
         {
@@ -159,12 +159,6 @@ const config: Config = {
           className: 'navbar-icon-link',
           position: 'right',
           html: '<i class="fa-brands fa-discord" aria-label="Discord"></i>',
-        },
-        {
-          href: 'https://difffusestudiosl.gumroad.com/',
-          className: 'navbar-icon-link',
-          position: 'right',
-          html: '<i class="fa-solid fa-cart-shopping" aria-label="Gumroad"></i>',
         },
         {
           href: 'https://difffuse.studio',
