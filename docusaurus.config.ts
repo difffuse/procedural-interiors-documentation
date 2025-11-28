@@ -110,12 +110,14 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
-      respectPrefersColorScheme: true,
+      respectPrefersColorScheme: false,
+      disableSwitch: false,
     },
     navbar: {
       logo: {
         alt: 'Procedural Interiors Logo',
         src: 'img/difffuse_logo.png',
+        srcDark: 'img/difffuse_logo.svg',
       },
       items: [
         {
