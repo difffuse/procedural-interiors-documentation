@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Procedural Interiors
 
-![Background Image](/assets/images/background.jpg)
+![Background Image](/assets/images/axo.jpg)
 
 The Procedural Interiors add-on makes it easy to generate apartment or house interiors, including architectural elements like interior walls, columns, windows, doors, and staircases. You can start from scratch or use the Reference feature to import a floor plan and trace your building based on that reference.
 
